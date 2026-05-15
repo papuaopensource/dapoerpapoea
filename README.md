@@ -21,8 +21,3 @@ Seluruh konten resep bersumber dari buku **"Resep Masak Dapur Irian Jaya"**, dis
 ## Lisensi
 
 Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](./LICENSE) untuk detailnya.
-
-## Kontak
-
-- Email: [contact@dapoerpapoea.com](mailto:contact@dapoerpapoea.com)
-- GitHub Issues: [Buka Diskusi](https://github.com/papuaopensource/dapoerpapoea/issues/new)
