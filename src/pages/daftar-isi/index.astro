@@ -22,14 +22,14 @@ const groupedRecipes = chapters
     <main
         class="max-w-screen-lg mx-auto space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
     >
-        <h1 class="text-2xl font-bold text-gray-800">Daftar Isi Terperinci</h1>
+        <h1 class="text-2xl font-bold text-neutral-800">Daftar Isi Terperinci</h1>
 
         <div>
             <input
                 type="text"
                 id="searchInput"
                 placeholder="Cari resep masakan..."
-                class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                class="w-full p-2 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-500"
             />
         </div>
 
@@ -40,7 +40,7 @@ const groupedRecipes = chapters
                         class="space-y-4"
                         data-group={group.title.toLowerCase()}
                     >
-                        <h2 class="text-lg md:text-xl font-semibold text-gray-800 pt-8">
+                        <h2 class="text-lg md:text-xl font-semibold text-neutral-800 pt-8">
                             {group.chapter}. {group.title}
                         </h2>
                         {group.recipes.length > 0 ? (
@@ -64,7 +64,7 @@ const groupedRecipes = chapters
                                 ))}
                             </ul>
                         ) : (
-                            <p class="text-gray-500 italic">
+                            <p class="text-neutral-500 italic">
                                 Belum ada resep untuk bagian ini.
                             </p>
                         )}
@@ -74,7 +74,7 @@ const groupedRecipes = chapters
         </div>
 
         <div>
-            <p class="text-end text-xs text-gray-500">
+            <p class="text-end text-xs text-neutral-500">
                 Total <span id="totalRecipes"
                     >{
                         groupedRecipes.reduce(

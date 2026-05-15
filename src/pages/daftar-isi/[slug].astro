@@ -39,7 +39,7 @@ if (!category) {
                     type="text"
                     id="searchInput"
                     placeholder="Cari resep masakan..."
-                    class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                    class="w-full p-2 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-500"
                 />
             </div>
 
@@ -63,7 +63,7 @@ if (!category) {
                             ))}
                         </ul>
                     ) : (
-                        <p class="text-center text-gray-500 italic py-8">
+                        <p class="text-center text-neutral-500 italic py-8">
                             Belum ada resep yang tersedia untuk bagian ini.
                         </p>
                     )
@@ -71,7 +71,7 @@ if (!category) {
             </div>
         </section>
 
-        <p class="text-end text-xs text-gray-500">
+        <p class="text-end text-xs text-neutral-500">
             Total <span id="totalRecipes">{filteredRecipes.length}</span> Resep
         </p>
 

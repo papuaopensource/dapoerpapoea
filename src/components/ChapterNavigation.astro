@@ -16,7 +16,7 @@ const { prevTitle, prevLink, nextTitle, nextLink } = Astro.props;
         prevTitle && prevLink ? (
             <a
                 href={prevLink}
-                class="text-gray-600 text-sm hover:underline flex items-center justify-start w-full md:w-auto"
+                class="text-neutral-600 text-sm hover:underline flex items-center justify-start w-full md:w-auto"
             >
                 &larr; {prevTitle}
             </a>
@@ -29,7 +29,7 @@ const { prevTitle, prevLink, nextTitle, nextLink } = Astro.props;
         nextTitle && nextLink ? (
             <a
                 href={nextLink}
-                class="text-gray-600 text-sm hover:underline flex items-center justify-end w-full md:w-auto"
+                class="text-neutral-600 text-sm hover:underline flex items-center justify-end w-full md:w-auto"
             >
                 {nextTitle} &rarr;
             </a>
