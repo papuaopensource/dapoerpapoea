@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/cloudflare": "^11.2.0",
+    "@astrojs/sitemap": "^3.7.2",
     "@astrojs/tailwind": "^5.1.2",
     "@fontsource-variable/onest": "^5.1.0",
     "astro": "^4.16.8",
